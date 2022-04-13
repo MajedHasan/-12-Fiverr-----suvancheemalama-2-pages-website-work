@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-Sans";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    background: url('../img/page-background.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:1200px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+
+
+
+/* ======================================== Home Page ======================================== */
+
+
+/* ======================= Header ======================= */
+header#header {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.3);
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+        }
+
+        .buttons {
+
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+/* =================xxx=== Header ===xxx================= */
+
+
+/* ======================= Hero ======================= */
+section.hero {
+    padding: 80px 0;
+
+    h1 {
+        font-size: 60px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .button {
+        text-align: right;
+
+        button {
+            outline: none;
+            border: none;
+            padding: 15px 40px;
+            cursor: pointer;
+            border-radius: 15px;
+            color: #FFFFFF;
+            background: rgba(255, 255, 255, 0.3);
+            font-weight: bold;
+            font-size: 25px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+        }
+    }
+}
+
+/* =================xxx=== Hero ===xxx================= */
+
+
+/* ======================= Section 01 ======================= */
+section.section-01 {
+    padding: 45px 0;
+
+    .content {
+        max-width: 850px;
+        width: 100%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+        border-radius: 8px;
+        padding: 30px 35px;
+
+        .heading {
+            font-size: 45px;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .box-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            max-width: 220px;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: inset 1px 3px 5px rgba(0, 0, 0, 0.4),
+                0 0 5px rgba(0, 0, 0, 0.4);
+            padding: 20px 12px;
+            margin: 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.01);
+
+            h2 {
+                color: #FFFFFF;
+            }
+
+            p {
+                color: #F1E1F1;
+                font-weight: bold;
+                margin: 35px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: #f0a9c7;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+
+        .youtube-box-heading {
+            margin-top: 20px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .box.youtube {
+            margin: 30px auto;
+            background: #F1E1F1;
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+            height: 170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: red;
+                font-size: 40px;
+                filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.4));
+            }
+        }
+    }
+}
+
+/* =================xxx=== Section 01 ===xxx================= */
+
+
+/* ======================= Section 02 ======================= */
+section.section-02 {
+    padding: 45px 0;
+
+    .content {
+
+        .box {
+            max-width: 43%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: space-between;
+            flex-direction: column;
+
+            ul {
+                list-style: none;
+                padding: 30px 0;
+
+                li {
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            h1 {
+                font-size: 40px;
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+
+            button.btn {
+                outline: none;
+                border: none;
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                color: #FFFFFF;
+                padding: 12px 35px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+                font-size: 25px;
+                margin-top: 12px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* =================xxx=== Section 02 ===xxx================= */
+
+
+/* ======================= Section 03 ======================= */
+section.section-03 {
+    padding: 45px 0;
+
+    .content {
+
+        .box {
+            background: rgba(255, 255, 255, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4),
+                0 0 5px rgba(0, 0, 0, 0.4);
+            height: 170px;
+            transition: all 0.4s ease;
+
+            h2 {
+                font-size: 30px;
+                color: #FFFFFF;
+                font-weight: bold;
+                transform: rotate(320deg);
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+                transition: all 0.4s ease;
+            }
+
+            &:hover {
+                transform: rotateY(180deg);
+                box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+
+                h2 {
+                    transform: rotateY(226deg);
+                }
+            }
+        }
+    }
+}
+
+/* =================xxx=== Section 03 ===xxx================= */
+
+
+/* ======================= Section 04 ======================= */
+section.section-04 {
+    padding: 45px 0;
+
+    .content {
+
+        .faq-wrapper {
+            padding-top: 25px;
+            max-width: 600px;
+            width: 100%;
+            margin: auto;
+
+            .faq-box {
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+                border-radius: 12px;
+                padding: 15px 10px;
+                background: rgba(255, 255, 255, 0.1);
+                color: #FFFFFF;
+                transition: all 0.4s ease;
+                margin: 20px 0;
+
+                .question {
+                    padding-bottom: 6px;
+                    width: 100%;
+
+                    h2 {
+                        font-size: 20px;
+                        font-weight: bold;
+                        width: 100%;
+                        position: relative;
+                        cursor: pointer;
+
+                        &::after {
+                            content: "\f0da";
+                            font-family: "FontAwesome";
+                            font-size: 22px;
+                            color: #FFFFFF;
+                            position: absolute;
+                            top: 50%;
+                            right: 10px;
+                            transform: translate(-10px, -50%);
+                        }
+                    }
+                }
+
+                .answare {
+                    border-top: 1px solid rgba(0, 0, 0, 0.4);
+                    height: fit-content;
+                    transition: all 0.4s ease;
+
+                    p {
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size: 0;
+                        transition: all 0.4s ease;
+                    }
+                }
+
+
+                &.active {
+
+                    .question {
+
+                        h2 {
+
+                            &::after {
+                                content: "\f0d8";
+                            }
+                        }
+                    }
+
+                    .answare {
+                        height: auto;
+
+                        p {
+                            margin-top: 25px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn {
+            outline: none;
+            border: none;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            padding: 8px 60px;
+            color: #FFFFFF;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            margin: auto;
+            width: fit-content;
+            text-align: center;
+            display: block;
+            cursor: pointer;
+            margin-top: 45px;
+            font-size: 20px;
+        }
+    }
+}
+
+/* =================xxx=== Section 04 ===xxx================= */
+
+
+/* ======================= Section 05 ======================= */
+section.section-05 {
+    padding: 45px 0;
+
+    .content {
+
+        .content-wrapper {
+            margin: 15px 0;
+            color: #FFFFFF;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px 25px;
+            border-radius: 12px;
+            text-align: center;
+
+            h2 {
+                text-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+}
+
+/* =================xxx=== Section 05 ===xxx================= */
+
+
+/* ======================= Footer ======================= */
+footer {
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        display: block;
+    }
+}
+
+/* =================xxx=== Footer ===xxx================= */
+
+
+
+@media only screen and (max-width:768px) {
+    section.section-02 .content .box {
+        max-width: 100%;
+    }
+
+    section.section-04 .content .faq-wrapper .faq-box .question h2::after {
+        right: -5px;
+    }
+
+    section.section-04 .content .faq-wrapper .faq-box .question h2 {
+        padding-right: 15px;
+    }
+
+    section.section-05 .content .heading {
+        font-size: 25px;
+        word-wrap: break-word;
+    }
+}
+
+
+/* ==================================xxx=== Home Page ===xxx================================== */
